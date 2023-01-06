@@ -1,0 +1,643 @@
+/* ======================== THIS PROJECT DESIGNED BY DEVELOPER MUHAMMAD PULOK ===================== */
+
+
+/* =============== GOOGLE FONTS =========== */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/* ================= DEFAULT CSS =========== */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: raleway, sans-serif;
+}
+
+.container {
+	max-width: 1200px;
+	margin: auto;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.clear::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+
+/* =============== HEADER SECTION CSS ========== */
+
+.header-section {
+    background: #fff;
+	border-bottom: 1px solid #ddd;
+}
+
+.logo-menu {
+    width: 70%;
+    border-right: 1px solid #ddd;
+    padding: 40px 0;
+}
+
+.live-chat {
+    width: 30%;
+    margin-top: -25px;
+}
+
+.logo {
+}
+
+.logo img {}
+
+.menu ul {
+    list-style: none;
+    margin-right: 20px;
+}
+
+.menu ul li {
+	display: inline-block;
+}
+.menu ul li a {
+    padding: 0 20px;
+    font-weight: 600;
+    color: #000;
+    line-height: 54px;
+	transition: .5s;
+}
+
+.menu ul li a:hover {
+	color: #ffe13e;
+}
+
+.live-chat p {
+    font-size: .7rem;
+    font-weight: 600;
+    margin-top: -83px;
+    padding-left: 54px;
+}
+
+.contact ul {
+    list-style: none;
+    padding-left: 40px;
+    margin-top: 30px;
+}
+
+.contact ul li {
+    display: inline-block;
+}
+
+.contact ul li:first-child {
+    border-right: 2px solid #ddd;
+    margin-right: -5px;
+    padding: 13px;
+}
+
+.contact ul li a {
+    padding: 0 20px;
+}
+
+.contact ul li:first-child a:hover {
+	background: black;
+	color: #ffe13e;
+	transition: .5s;
+}
+
+.contact ul li:first-child a {
+    padding: 10px 20px;
+    background: #ffe13e;
+    font-weight: 500;
+    color: #000;
+    margin-right: 20px;
+}
+
+.contact ul li:nth-child(2) a {
+    font-size: 25px;
+    color: #000;
+}
+
+/* ================== HERO SECTION CSS =================== */
+
+.hero-section {
+	background: url(img/slider_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	position: relative;
+	padding: 100px 0;
+	z-index: 9;
+}
+
+.hero-section::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .3;
+    z-index: -1;
+}
+
+
+.hero-title h2 {
+    color: #fff;
+    font-family: 'Raleway';
+    font-size: 3rem;
+    font-weight: 500;
+    padding: 50px 0;
+}
+
+.hero-section h3 {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 20px 0;
+    font-family: 'Raleway';
+}
+
+.hero-title img {
+    max-width: 100%;
+    padding: 50px 0;
+}
+
+.hero-form {
+    background: #dddddd;
+    display: inline-block;
+    padding: 20px 20px;
+}
+
+.hero-form input[type="text"] {
+    font-size: 1.1rem;
+    font-weight: 300;
+    padding: 12px 20px;
+    background: #fff;
+	border: none;
+    border-left: 1px solid #747d8c;
+}
+
+.hero-form input[type="text"]:focus {
+	outline: none;
+}
+
+.hero-form select {
+    padding: 11px 20px;
+    margin-left: -6px;
+    background: #ffe13e;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border: 1px solid #ffe13e;
+}
+
+.hero-form select:focus {
+	outline: none;
+}
+
+.hero-form a {
+    background: #ffe13e;
+    font-size: 1.1rem;
+    color: #000;
+    font-weight: 500;
+    padding: 12px 20px;
+    margin-left: -4px;
+    border-left: 1px solid #fff;
+	border-right: 1px solid #747d8c;
+}
+
+.hero-form a:hover {
+	background: #fff;
+	transition: .5s;
+}
+
+
+/* =================== SERVICE SECTION CSS =============== */
+
+.service-section {
+	
+}
+
+.hosting-service {
+	width: 50%;
+	background: #212343;
+	min-height: 450px;
+}
+
+.hosting-service .hosting-side {
+    width: 50%;
+    margin: auto;
+    padding: 100px 0 100px 150px;
+}
+
+.hosting-service .hosting-side h2 {
+    font-size: 36px;
+    margin-top: 55px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 100%;
+}
+
+.hosting-service .hosting-side p {
+    color: #fff;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.hosting-service .hosting-side a {
+    color: #fff;
+    border: 3px solid #fff;
+    padding: 15px 55px;
+    margin-top: 19px;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 20px;
+	transition: all .3s ease-in-out;
+}
+
+.hosting-service .hosting-side a:hover {
+	background: #fff;
+	color: #212343;
+	transform: rotate(360deg);
+}
+
+.domain-service {
+	width: 50%;
+	background: #ffe13f;
+	min-height: 450px;
+}
+
+.domain-service .domain-side {
+    width: 50%;
+    margin: auto;
+    padding: 145px 150px 100px 0;
+}
+
+.domain-service h1 {
+    font-family: 'Raleway';
+    font-size: 8.5rem;
+    font-weight: 700;
+    padding-right: 100px;
+}
+
+.domain-service h2 {
+    font-size: 36px;
+    margin-top: 20px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 100%;
+}
+
+.domain-service .domain-side p {
+    color: #fff;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.domain-service .domain-side a {
+    color: #fff;
+    border: 3px solid #fff;
+    padding: 15px 55px;
+    margin-top: 19px;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 20px;
+	transition: all .3s ease-in-out;
+}
+
+.domain-service .domain-side a:hover {
+	background: #fff;
+	color: #212343;
+	transform: rotate(360deg);
+}
+
+/* ================ FEATURE SECTION CSS =============== */
+
+.feature-section {
+	background-image: url(img/features_shape.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	padding: 90px 0;
+    background-color: #FBF8F1;
+}
+
+
+.feature-title h2 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.feature-title h3 {
+    font-family: 'Raleway';
+    font-size: 27px;
+    font-weight: 400;
+    margin: 12px 0 85px 0;
+}
+
+.feature-box {
+    width: 23.5%;
+    margin-right: 2%;
+    text-align: center;
+}
+
+.feature-box:nth-child(4) {
+    margin-right: 0;
+}
+
+.feature-box img {
+	
+}
+
+.feature-box .line {
+    background: #8d8d99;
+    width: 90px;
+    height: 3px;
+    display: block;
+    margin: auto;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.feature-box h2 {
+    font-family: 'Raleway';
+    color: #f4d321;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+/* ==================== CLIENT SECTION CSS =============== */
+
+.client-section {
+	padding: 100px 0;
+}
+
+.company-title {
+    width: 33.5%;
+    margin-right: 0%;
+}
+
+.company-title h2 {
+    font-family: 'Raleway';
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.company-title p {
+    font-family: 'Raleway';
+    color: #ccc;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+.company-logo {
+    width: 15%;
+    margin-right: 2.1%;
+}
+
+.company-logo:nth-child(5) {
+    margin-right: 0;
+}
+
+.client-testimonial {
+	padding-top: 70px;
+}
+
+.testimonial-box {
+	width: 33.3%;
+}
+
+.testimonial-box {
+    width: 32%;
+    margin-right: 2%;
+    position: relative;
+}
+
+.testimonial-box:nth-child(3) {
+    margin-right: 0;
+}
+
+.testimonial-box .textimonial-content {
+    background: #faf9f9;
+    padding: 25px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.textimonial-content p {
+    font-family: 'Raleway';
+    font-size: 16px;
+    line-height: 1.4;
+    margin-bottom: 10px;
+	color: #ccc;
+}
+
+.textimonial-content h4 {
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-weight: 600;
+    color: #767676;
+}
+
+.testimonial-box img {
+    position: absolute;
+    left: 260px;
+    top: 135px;
+}
+
+/* =============== PRICING SECTION CSS ============ */
+
+.pricing-section {
+	background: #202242;
+	padding: 80px 0;
+}
+
+.pricing-title  {
+	width: 68%;
+}
+
+.pricing-title h2 {
+    color: #fff;
+    font-family: 'Raleway';
+    font-size: 36px;
+    line-height: 1.4;
+    margin-bottom: 10px;
+    margin-left: 100px;
+}
+
+.pricing-title h4 {
+    margin-left: 100px;
+    color: #54566c;
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.pricing-button {
+    width: 24%;
+}
+
+.pricing-button a {
+    color: #202242;
+    font-family: 'Raleway';
+    background: #fee03e;
+    font-weight: 700;
+    font-size: 20px;
+    border: 5px solid #fff;
+    padding: 25px 40px;
+    margin-top: 8px;
+    display: inline-block;
+	transition: .5s;
+}
+
+.pricing-button a:hover {
+    background: #fff;
+    border: 5px solid #fff;
+}
+
+/* ========== FOOTER SECTION CSS ========== */
+
+.footer-section {
+    background: url(img/footer_bg.png);
+    background-color: #373856;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    position: relative;
+	padding-bottom: 50px;
+}
+
+.map {
+    position: relative;
+    padding-top: 100px;
+}
+
+.location img {
+    position: absolute;
+    right: 430px;
+    top: 245px;
+}
+
+.location a {
+    color: #fff;
+    position: absolute;
+    left: 777px;
+    top: 241px;
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+.location a span {
+    font-size: 50px;
+    color: #fee03e;
+}
+
+.copyright img {
+    width: 35px;
+    height: auto;
+}
+
+.copyright p {
+    color: #fff;
+    font-family: 'Raleway';
+    padding-top: 5px;
+    line-height: 1.2;
+}
+
+.navigation h4 {
+    font-size: 22px;
+    color: #fff;
+    font-family: 'Raleway';
+    font-weight: 500;
+    margin-bottom: 28px;
+    margin-left: 20px;
+}
+
+.navigation ul {
+    list-style: none;
+}
+
+.navigation ul li {
+    padding-bottom: 10px;
+    text-align: right;
+}
+
+.navigation ul li a {
+    color: #fff;
+    display: inline-block;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #5c5e76;
+}
+
+.social-menu ul {
+    padding-left: 11px;
+}
+
+.navigation .social-menu ul li {
+	display: inline-block;
+	
+}
+.social-menu ul li a {
+  padding: 10px;
+  color: #fff;
+  transition: transform .2s; /* Animation */
+  width: 20px;
+  height: 20px;
+  margin: 0 auto;
+  border-bottom: none;
+}
+
+.social-menu ul li a:hover {
+	color: #ffe13e;
+	transform: scale(1.5);
+}
+
+.navigation span a {
+    color: #fff;
+    padding-left: 27px;
+	transition: .5s;
+}
+
+.navigation span a:hover {
+	color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
